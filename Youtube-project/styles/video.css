@@ -17,7 +17,7 @@
 
 }
 .picture-preview:hover{
-    opacity: 0;
+    z-index: 2;
 }
 
 .preview{
@@ -34,12 +34,20 @@
     opacity: 0;
 }
 .video:hover{
-    opacity: 1;
+   z-index: 3;
+   opacity: 1;
 }
    
 
 .video-time{
     z-index: 4;
+    position:absolute;
+    bottom: 30px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 .info-grid{
     display: grid;
